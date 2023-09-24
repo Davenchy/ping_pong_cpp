@@ -6,7 +6,7 @@
 
 ## How To Play
 
-- Use the keys `K/Up` and `J/Down` to move **Up** and **Down**
+- Use keys `K/Up` and `J/Down` to move **Up** and **Down**
 - Use `Space` to reset the ball position and get the next shoot, **but it costs 1 point**.
 
 ## Build
