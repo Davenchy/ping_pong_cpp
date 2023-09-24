@@ -2,9 +2,7 @@
 
 - A ping pong game written in Cpp using RayLib
 
-<center>
-    ![In-Game screenshot](screens/screen.png)
-</center>
+![In-Game screenshot](screens/screen.png)
 
 ## How To Play
 
