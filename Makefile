@@ -6,7 +6,7 @@ OBJECT := $(patsubst $(SRC)/%.cpp, $(BUILD)/%.o, $(SOURCE))
 
 .PHONY: run
 
-cping_pong: $(OBJECT) $(BUILD)/main.o
+ping_pong: $(OBJECT) $(BUILD)/main.o
 	gcc -Wall -lraylib -lm -o $@ $^
 
 $(BUILD)/main.o: main.cpp
@@ -15,5 +15,5 @@ $(BUILD)/main.o: main.cpp
 $(BUILD)/%.o: $(SRC)/%.cpp
 	gcc -Wall -c $< -o $@
 
-run: cping_pong
-	@./cping_pong
+run: ping_pong
+	@./ping_pong
